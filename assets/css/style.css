@@ -27,7 +27,7 @@ body {
 
 #slogan {
     clear: left;
-    margin: 20px 0 10px 40px;
+    margin: 16px 0 10px 40px;
     background-color: rgba(29, 19, 14, 0.6);
     color: rgb(238, 195, 1);
     border-radius: 6px;
@@ -46,13 +46,21 @@ a h1 {
 nav {
     height: 40px;
     width: 100%;
-    background-color:rgb(238, 195, 1);
+    background-color: rgb(238, 195, 1);
     margin-top: -16px;
 }
 
 nav a {
     text-decoration: none;
     font-weight: 600;
+    color: inherit;
+}
+
+nav a:hover {
+    padding: 10.5px;
+    margin: 0 -10.5px 0 -10.5px;
+    background-color: rgba(29, 19, 14, 0.8);
+    color: rgb(238, 195, 1);
 }
 
 nav li {
@@ -65,7 +73,16 @@ nav li {
 #login {
     position: absolute;
     right: 0;
-    background-color: rgba(29, 19, 14, 0.6);
-    padding: 11px 20px;
-    margin-top: -26px;
+    background-color: rgba(29, 19, 14, 0.8);
+    color: rgb(238, 195, 1);
+    font-weight: 800;
+    padding: 10.5px 20px;
+    margin-top: -25px;
+}
+
+nav .active {
+    padding: 10.5px;
+    margin: 0 -10.5px 0 -10.5px;
+    background-color: rgba(29, 19, 14, 0.8);
+    color: rgb(238, 195, 1);
 }
