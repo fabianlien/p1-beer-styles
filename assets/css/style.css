@@ -99,11 +99,28 @@ nav .active {
 
 #intro-box {
     background-color: rgb(240, 220, 150);
-    width: 66%;
+    width: 55%;
     text-align: center;
-    padding: 20px 5% 0 5%;
+    padding: 30px 5% 0px 5%;
 }
 
 #intro-box p {
     padding-bottom: 5%;
+    font-size: larger;
+}
+
+#intro-box p:hover {
+    padding-bottom: 5%;
+    font-size: x-large;
+}
+
+#iframe-box {
+    float: right;
+    width: 35%;
+    clear: right;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
