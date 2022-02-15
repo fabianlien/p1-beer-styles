@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&display=swap');
 
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 /*header*/
@@ -85,4 +89,21 @@ nav .active {
     margin: 0 -10.5px 0 -10.5px;
     background-color: rgba(29, 19, 14, 0.8);
     color: rgb(238, 195, 1);
+}
+
+/*intro section*/
+
+.float-left {
+    float: left;
+}
+
+#intro-box {
+    background-color: rgb(240, 220, 150);
+    width: 66%;
+    text-align: center;
+    padding: 20px 5% 0 5%;
+}
+
+#intro-box p {
+    padding-bottom: 5%;
 }
