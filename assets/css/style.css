@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+}
+
+#hero-image {
+    background: url('../images/beer-hero-image.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+
+#login {
+    float: right;
+    margin: 30px 20px;
+}
+
+#logotype {
+    margin: 0;
+}
+
+#slogan {
+    clear: left;
+}
+
+a h1 {
+    float: left;
+}
+
