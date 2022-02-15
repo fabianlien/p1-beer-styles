@@ -15,6 +15,7 @@ The information displayed strives to have intuitive navigation and be easily dig
 
 ## Credits
 
-### Images
+### Media
 No attribgitution reuired:
 Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download
+iframe video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4
