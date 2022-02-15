@@ -14,3 +14,7 @@ The information displayed strives to have intuitive navigation and be easily dig
 
 
 ## Credits
+
+### Images
+No attribgitution reuired:
+Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download
