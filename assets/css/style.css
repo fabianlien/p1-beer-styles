@@ -115,16 +115,31 @@ nav .active {
     font-size: x-large;
 }
 
+
 #iframe-box {
     float: right;
     width: 35%;
     height: 300px;
     padding-top: 0.19775%;
-    clear: right;
 }
 
 iframe {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+}
+
+/*style section*/
+
+#style-column-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    float: left;
+}
+
+.style-column {
+    height: 100vh;
+    display: inline-block;
+    background-color: antiquewhite;
+    width: 33%
 }
