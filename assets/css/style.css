@@ -106,13 +106,13 @@ nav .active {
 }
 
 #intro-box p {
-    padding-bottom: 5%;
+    padding: 5% 0 5% 0;
     font-size: larger;
 }
 
 #intro-box p:hover {
-    padding-bottom: 5%;
     font-size: x-large;
+    padding: 3% 0 3% 0;
 }
 
 
