@@ -176,6 +176,11 @@ iframe {
 .style-heading-box h3 {
     border-top: 8px solid rgb(34, 6, 6);
     padding-top: 16px;
+    border-radius: 16px;
     line-height: 32px;
     letter-spacing: 3px;
+}
+
+.dark-ales h3 {
+    border-color: rgb(240, 220, 150);
 }
