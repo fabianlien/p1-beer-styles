@@ -133,7 +133,7 @@ iframe {
 #style-column-wrapper {
     width: 100%;
     height: 100vh;
-    background-color: brown;
+    background-color: rgb(26, 13, 8);
     float: left;
 }
 
@@ -146,14 +146,14 @@ iframe {
 
 .style-heading-box {
     width: 100%;
-    height: 120px;
+    height: 70px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 60px;
     overflow: hidden;
 }
 
 .lagers {
-    background:rgb(214, 238, 1);
+    background:rgb(231, 228, 21);
 }
 
 .light-ales {
@@ -169,14 +169,11 @@ iframe {
     height: fit-content;
 }
 
-.lagers p {
-    padding-top: 60px;
+.style-heading-box p {
+    margin: 0 16px 8px 16px;
 }
 
-.light-ales p {
-    padding-top: 60px;
-}
-
-.dark-ales p {
-    padding-top: 60px;
+.style-heading-box h3 {
+    border-top: 16px solid rgb(34, 6, 6);
+    padding-top: 16px;
 }
