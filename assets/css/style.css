@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    background-color: rgb(240, 220, 150);
 }
 
 h2 {
@@ -133,7 +134,7 @@ iframe {
 #style-column-wrapper {
     width: 100%;
     height: 80vh;
-    background-color: rgb(26, 13, 8);
+    background-color: rgb(240, 220, 150);
     float: left;
 }
 
@@ -173,7 +174,7 @@ iframe {
 }
 
 .style-heading-box h3 {
-    border-top: 8px solid rgb(34, 6, 6);
+    border-top: 8px solid rgb(240, 220, 150);
     padding-top: 16px;
     border-radius: 16px;
     line-height: 32px;
