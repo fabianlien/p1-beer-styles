@@ -149,6 +149,7 @@ iframe {
     height: 120px;
     text-align: center;
     padding-top: 40px;
+    overflow: hidden;
 }
 
 .lagers {
@@ -162,4 +163,20 @@ iframe {
 .dark-ales {
     background:rgb(34, 6, 6);
     color: rgb(240, 220, 150);
+}
+
+.style-heading-box:hover {
+    height: fit-content;
+}
+
+.lagers p {
+    padding-top: 60px;
+}
+
+.light-ales p {
+    padding-top: 60px;
+}
+
+.dark-ales p {
+    padding-top: 60px;
 }
