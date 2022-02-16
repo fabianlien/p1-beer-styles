@@ -132,15 +132,14 @@ iframe {
 
 #style-column-wrapper {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-color: rgb(26, 13, 8);
     float: left;
 }
 
 .style-column {
-    height: 100vh;
+    height: 80vh;
     display: inline-block;
-    background-color: antiquewhite;
     width: 33%
 }
 
@@ -183,4 +182,14 @@ iframe {
 
 .dark-ales h3 {
     border-color: rgb(240, 220, 150);
+}
+
+/*footer*/
+
+footer div {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(238, 195, 1);
 }

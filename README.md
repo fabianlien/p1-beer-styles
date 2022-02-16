@@ -16,9 +16,14 @@ The information displayed strives to have intuitive navigation and be easily dig
 ## Credits
 
 ### Media
-No attribgitution reuired:
+No attribution reuired:
 Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download
 iframe video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4
 
+Attribution required
+https://www.freepik.com/vectors/border">Border vector created by upklyak - www.freepik.com
+
+
 ### Text Content
 https://www.anchorbrewing.com/blog/a-history-of-lager/
+https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#4
