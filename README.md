@@ -23,7 +23,10 @@ iframe video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-i
 Attribution required
 https://www.freepik.com/vectors/border">Border vector created by upklyak - www.freepik.com
 
-
 ### Text Content
 https://www.anchorbrewing.com/blog/a-history-of-lager/
 https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#4
+
+### Tutorials and troubleshooting
+https://stackoverflow.com/
+https://www.javatpoint.com/
