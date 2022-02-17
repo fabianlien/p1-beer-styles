@@ -139,7 +139,7 @@ nav .active {
     opacity: 0;
     z-index: 1;
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     top: 0;
     height: 100%;
     width: 100%;
@@ -151,7 +151,7 @@ nav .active {
     border: 30px inset rgb(238, 195, 1);
     background-color: rgb(240, 220, 150);
     width: 60%;
-    margin: 20%;
+    margin: 15%;
     min-height: 420px;
     height: fit-content;
     padding: 30px;
