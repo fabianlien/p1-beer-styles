@@ -93,6 +93,32 @@ nav .active {
     color: rgb(238, 195, 1);
 }
 
+.nav-dropdown-button {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: inherit;
+    text-transform: uppercase;
+    border: none;
+    padding: 0;
+    background-color: inherit;
+}
+
+.nav-dropdown-button:hover {
+    padding: 10.5px;
+    margin: -10.5px -10.5px 0 -10.5px;
+    background-color: rgba(29, 19, 14, 0.8);
+    color: rgb(238, 195, 1);
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    display: none;
+}
+
 /*intro section*/
 
 .float-left {
