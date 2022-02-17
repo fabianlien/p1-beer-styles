@@ -148,7 +148,8 @@ nav .active {
 }
 
 .login-window-content {
-    background-color: rgb(238, 195, 1);
+    border: 30px inset rgb(238, 195, 1);
+    background-color: rgb(240, 220, 150);
     width: 60%;
     margin: 20%;
     height: 600px;
@@ -214,6 +215,7 @@ video {
     list-style: none;
     padding-left: 40px;
     line-height: 30px;
+    margin-top: 30px;
 }
 
 #beer-box a {
