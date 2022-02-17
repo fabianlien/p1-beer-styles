@@ -123,9 +123,9 @@ nav .active {
     display: block;
 }
 
-/*login*/
+/*sign up*/
 
-#login {
+#signup {
     position: absolute;
     right: 0;
     background-color: rgba(29, 19, 14, 0.8);
@@ -135,7 +135,7 @@ nav .active {
     margin-top: -25px;
 }
 
-.login-window {
+.signup-window {
     opacity: 0;
     z-index: 1;
     visibility: hidden;
@@ -147,18 +147,73 @@ nav .active {
 
 }
 
-.login-window-content {
+.signup-window-content {
     border: 30px inset rgb(238, 195, 1);
     background-color: rgb(240, 220, 150);
     width: 60%;
     margin: 20%;
-    height: 600px;
+    height: fit-content;
     padding: 30px;
 }
 
-.login-window:target {
+.signup-window:target {
     opacity: 1;
     visibility: visible;
+}
+
+#signup-form label {
+    display: block;
+}
+
+#text-input {
+    float: left;
+    width: 40%;
+    margin-top: 8px;
+    border:4px solid rgba(29, 19, 14, 0.8);
+}
+
+#checkbox-input {
+    /*float: right;*/
+    width: 45%;
+    border:4px solid rgba(29, 19, 14, 0.8);
+    display: inline-block;
+}
+
+.signup-window-content h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#text-input input {
+    margin-bottom: 8px;
+    background-color: inherit;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#close-button i {
+    position: relative;
+    bottom: 30px;
+    left: 100%;
+    color: rgba(29, 19, 14, 0.8);
+    font-size: xx-large;
+}
+
+.signup-form-btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px;
+    margin: 8px 8px 8px 2px;
+    border-radius: 4px;
+    background-color: rgba(29, 19, 14, 0.8);
+    color: rgb(238, 195, 1);
+}
+
+.signup-form-btn:hover {
+    background-color: rgb(238, 195, 1);
+    color: rgba(29, 19, 14, 0.8);
 }
 
 /*intro section*/
@@ -203,7 +258,7 @@ video {
 
 #beer-box ul {
     position: absolute;
-    bottom: 20px;
+    bottom: 5%;
     left: -60px;
     width: 100%;
 }
@@ -215,7 +270,6 @@ video {
     list-style: none;
     padding-left: 40px;
     line-height: 30px;
-    margin-top: 30px;
 }
 
 #beer-box a {

@@ -38,23 +38,25 @@
                     </div>
                 <li><a href="history.html">History</a></li>
                 <li><a href="dictionary.html">Beer Dictionary</a></li>
-                <li><div><a href="#login-window" id="login">Sign up for our newsletter!</a></div></li>
+                <li><div><a href="#signup-window" id="signup">Sign up for our newsletter!</a></div></li>
             </ul>
         </nav>
     </header>
     <aside>
-        <div class="login-window" id="login-window">
-            <div class="login-window-content">
-                <form>
-                    <fieldset>
+        <div class="signup-window" id="signup-window">
+            <div class="signup-window-content">
+                <div id="close-button"><a href="#"><i class="fa-solid fa-square-xmark"></i></a></div>
+                <h2>Discover more about beer by signing up for our <em>monthly newsletter!</em></h2>
+                <form id="signup-form">
+                    <fieldset id="text-input">
                         <label for="fname">First Name(s)</label>
                         <input type="text" id="fname" name="first_name" required>
                         <label for="fname">Last Name</label>
                         <input type="text" id="lname" name="last_name" required>
-                        <label for="email">Last Name</label>
+                        <label for="email">Email Address</label>
                         <input type="email" id="email" name="email" required>
                     </fieldset>
-                    <fieldset>
+                    <fieldset id="checkbox-input">
                         <legend>What beer(s) interest you?</legend>
                         <label for="interest-lager">Lager</label>
                         <input type="checkbox" name="style_interest" value="lager" id="interest-lager">
@@ -71,11 +73,10 @@
                         <label for="interest-belgian">Belgian Ale</label>
                         <input type="checkbox" name="style_interest" value="belgia_ale" id="interest-belgian">
                     </fieldset>
-            
-                    <input type="submit" value="Sign Me Up!">
-
+                    <input type="submit" value="Sign Me Up!" action="#" class="signup-form-btn">
+                    <input type="reset" value="Clear Form" class="signup-form-btn">
                 </form>
-                <a href="#">close</a>
+                
             </div>
         </div>
     </aside>
