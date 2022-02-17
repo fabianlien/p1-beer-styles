@@ -152,6 +152,7 @@ nav .active {
     background-color: rgb(240, 220, 150);
     width: 60%;
     margin: 20%;
+    min-height: 420px;
     height: fit-content;
     padding: 30px;
 }
@@ -173,10 +174,9 @@ nav .active {
 }
 
 #checkbox-input {
-    /*float: right;*/
+    float: right;
     width: 45%;
     border:4px solid rgba(29, 19, 14, 0.8);
-    display: inline-block;
 }
 
 .signup-window-content h2 {
@@ -190,6 +190,8 @@ nav .active {
     border-top: none;
     border-left: none;
     border-right: none;
+    line-height: 20px;
+    width: 80%;
 }
 
 #close-button i {
@@ -201,6 +203,8 @@ nav .active {
 }
 
 .signup-form-btn {
+    position: relative;
+    top: 80px;
     border: none;
     font-family: inherit;
     font-size: inherit;
