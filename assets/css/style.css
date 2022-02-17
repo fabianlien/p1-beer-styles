@@ -93,9 +93,7 @@ nav .active {
     color: rgb(238, 195, 1);
 }
 
-.nav-dropdown-button {
-    position: relative;
-    display: inline-block;
+.dropdown-button {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -104,19 +102,36 @@ nav .active {
     text-transform: uppercase;
     border: none;
     padding: 0;
-    background-color: inherit;
+    background-color: inherit;    
 }
 
-.nav-dropdown-button:hover {
+.dropdown-button:hover {
     padding: 10.5px;
-    margin: -10.5px -10.5px 0 -10.5px;
+    margin: -10.5px;
     background-color: rgba(29, 19, 14, 0.8);
     color: rgb(238, 195, 1);
 }
 
-.nav-dropdown-menu {
+.dropdown-content {
+    background-color: rgb(238, 195, 1);
+    padding: 20px;
+    margin: 10px 0 0 -20px;
+    line-height: 30px;
     position: absolute;
-    display: none;
+    z-index: 1;
+    display: none; 
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+    text-transform: uppercase;
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-content {  
+    display: block;
 }
 
 /*intro section*/
