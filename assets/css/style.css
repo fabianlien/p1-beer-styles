@@ -187,6 +187,11 @@ video {
     position: relative;
 }
 
+#beer-box h2 {
+    margin-top: 10%;
+    color: rgb(34, 6, 6);
+}
+
 #beer-box {
     position: absolute;
     right: 0px;
@@ -195,8 +200,20 @@ video {
     text-align: center;
 }
 
+#beer-box ul {
+    position: absolute;
+    bottom: 20px;
+    left: -60px;
+    width: 100%;
+}
+
 #beer-box li {
     font-size: larger;
+    color: rgb(240, 220, 150);
+    display: inline-block;
+    list-style: none;
+    padding-left: 40px;
+    line-height: 30px;
 }
 
 hr {
