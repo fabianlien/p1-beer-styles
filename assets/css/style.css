@@ -135,18 +135,6 @@ nav .active {
     margin-top: -25px;
 }
 
-.login-button {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: inherit;
-    text-transform: uppercase;
-    border: none;
-    padding: 0;
-    background: none;  
-}
-
 .login-window {
     opacity: 0;
     visibility: hidden;
