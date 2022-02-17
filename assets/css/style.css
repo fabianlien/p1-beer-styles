@@ -41,7 +41,6 @@ h2 {
     font-style: italic;
 }
 
-
 a h1 {
     float: left;
 }
@@ -74,16 +73,6 @@ nav li {
     display: inline-block;
     padding-left: 6%;
     margin-top: 10px; 
-}
-
-#login {
-    position: absolute;
-    right: 0;
-    background-color: rgba(29, 19, 14, 0.8);
-    color: rgb(238, 195, 1);
-    font-weight: 800;
-    padding: 10.5px 20px;
-    margin-top: -25px;
 }
 
 nav .active {
@@ -132,6 +121,54 @@ nav .active {
 
 .dropdown-menu:hover .dropdown-content {  
     display: block;
+}
+
+/*login*/
+
+#login {
+    position: absolute;
+    right: 0;
+    background-color: rgba(29, 19, 14, 0.8);
+    color: rgb(238, 195, 1);
+    font-weight: 800;
+    padding: 10.5px 20px;
+    margin-top: -25px;
+}
+
+.login-button {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: inherit;
+    text-transform: uppercase;
+    border: none;
+    padding: 0;
+    background: none;  
+}
+
+.login-window {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(29, 19, 14, 0.6);
+
+}
+
+.login-window-content {
+    background-color: rgb(238, 195, 1);
+    width: 60%;
+    margin: 20%;
+    height: 600px;
+    padding: 30px;
+}
+
+.login-window:target {
+    opacity: 1;
+    visibility: visible;
 }
 
 /*intro section*/

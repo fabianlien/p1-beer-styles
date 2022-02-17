@@ -28,5 +28,6 @@ https://www.anchorbrewing.com/blog/a-history-of-lager/
 https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#4
 
 ### Tutorials and troubleshooting
+https://www.w3schools.com/
 https://stackoverflow.com/
 https://www.javatpoint.com/
