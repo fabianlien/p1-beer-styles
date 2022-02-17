@@ -184,16 +184,18 @@ nav .active {
 }
 
 
-#iframe-box {
+#video-wrapper {
     float: right;
     width: 35%;
     height: 300px;
     padding-top: 0.19775%;
 }
 
-iframe {
+video {
     width: 100%;
     height: 100%;
+    border: none;
+
 }
 
 hr {
