@@ -155,6 +155,7 @@ nav .active {
     min-height: 420px;
     height: fit-content;
     padding: 30px;
+    overflow: auto;
 }
 
 .signup-window:target {
@@ -359,8 +360,10 @@ hr {
 }
 
 #timeline-wrapper {
+    clear: both;
     text-align: center;
     font-family: 'Saira Condensed', sans-serif;
+    line-height: 80px;
     font-size: 300%;
     letter-spacing: 4px;
     padding-top: 20px;
@@ -368,6 +371,23 @@ hr {
     height: 3000px;
     margin: 0 10%;
     background-color: rgb(241, 209, 91);
+}
+
+#timeline-wrapper hr {
+    width: 120px;
+    margin-top: -20px;
+    height: 16px;
+}
+
+#timeline-arrow {
+    margin: -40px 48.5%;
+    height: 2800px;
+    width: 3%;
+    background-color: rgb(34, 6, 6);
+}
+
+#timeline-arrowhead {
+
 }
 
 /*footer*/
