@@ -12,85 +12,95 @@
     </head>
     <body>
         <header>
-            <div class="heading-wrapper">
-                <a href="index.html">
-                    <h1 id="logotype">BeerStyles</h1>
-                </a>
-            </div>
-            <div class="heading-wrapper">
-                <a href="index.html/#">
-                    <h1 id="slogan">Life's short, drink beer discerningly!</h1>
-                </a>
-            </div>
-            <div id="hero-image">
-            </div>
-            <nav>
-                <ul id="nav-bar">
-                    <li><a href="index.html">Home</a></li>
-                    <li>
-                        <div class="dropdown-menu">
-                            <button class="dropdown-button">Styles</button>
-                            <div class="dropdown-content">
-                                <a href="index.html#lagers">Lagers</a>
-                                <a href="index.html#light-ales">Light Ales</a>
-                                <a href="index.html#dark-ales">Dark Ales</a>
+            <div class="z2-wrapper">
+                <div class="heading-wrapper">
+                    <a href="index.html">
+                        <h1 id="logotype">BeerStyles</h1>
+                    </a>
+                </div>
+                <div class="heading-wrapper">
+                    <a href="index.html/#">
+                        <h1 id="slogan">Life's short, drink beer discerningly!</h1>
+                    </a>
+                </div>
+                <div id="hero-image">
+                </div>
+                <nav>
+                    <ul id="nav-bar">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                            <div class="dropdown-menu">
+                                <button class="dropdown-button">Styles</button>
+                                <div class="dropdown-content">
+                                    <a href="index.html#lagers">Lagers</a>
+                                    <a href="index.html#light-ales">Light Ales</a>
+                                    <a href="index.html#dark-ales">Dark Ales</a>
+                                </div>
                             </div>
-                        </div>
-                    <li><a href="history.html" class="active">History</a></li>
-                    <li><a href="dictionary.html">Beer Dictionary</a></li>
-                    <li><div><a href="#signup-window" id="signup">Sign up for our newsletter!</a></div></li>
-                </ul>
-            </nav>
+                        <li><a href="history.html" class="active">History</a></li>
+                        <li><a href="dictionary.html">Beer Dictionary</a></li>
+                        <li><div><a href="#signup-window" id="signup">Sign up for our newsletter!</a></div></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <aside>
-            <div class="signup-window" id="signup-window">
-                <div class="signup-window-content">
-                    <div id="close-button"><a href="#"><i class="fa-solid fa-square-xmark"></i></a></div>
-                    <h2>Discover more about beer by signing up for our <em>monthly newsletter!</em></h2>
-                    <form id="signup-form">
-                        <fieldset id="text-input">
-                            <label for="fname">First Name(s)</label>
-                            <input type="text" id="fname" name="first_name" required>
-                            <label for="fname">Last Name</label>
-                            <input type="text" id="lname" name="last_name" required>
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </fieldset>
-                        <div>
-                            <fieldset id="checkbox-input">
-                                <legend>What beer(s) interest you?</legend>
-                                <label for="interest-lager">Lager</label>
-                                <input type="checkbox" name="style_interest" value="lager" id="interest-lager">
-                                <label for="interest-germ-ale">German Ale</label>
-                                <input type="checkbox" name="style_interest" value="german_ale" id="interest-germ-ale">
-                                <label for="interest-brit-ale">Brittish Ale</label>
-                                <input type="checkbox" name="style_interest" value="brittish_ale" id="interest-brit-ale">
-                                <label for="interest-pa-ipa">Pale Ale/I.P.A.</label>
-                                <input type="checkbox" name="style_interest" value="pale_ipa" id="interest-pa-ipa">
-                                <label for="interest-po-sto">Porter/Stout</label>
-                                <input type="checkbox" name="style_interest" value="porter_stout" id="interest-po-sto">
-                                <label for="interest-sour">Sour Ale</label>
-                                <input type="checkbox" name="style_interest" value="sour_ale" id="interest-sour">
-                                <label for="interest-belgian">Belgian Ale</label>
-                                <input type="checkbox" name="style_interest" value="belgia_ale" id="interest-belgian">
+            <div class="z2-wrapper">
+                <div class="signup-window" id="signup-window">
+                    <div class="signup-window-content">
+                        <div id="close-button"><a href="#"><i class="fa-solid fa-square-xmark"></i></a></div>
+                        <h2>Discover more about beer by signing up for our <em>monthly newsletter!</em></h2>
+                        <form id="signup-form">
+                            <fieldset id="text-input">
+                                <label for="fname">First Name(s)</label>
+                                <input type="text" id="fname" name="first_name" required>
+                                <label for="fname">Last Name</label>
+                                <input type="text" id="lname" name="last_name" required>
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
                             </fieldset>
-                        </div>
-                        <input type="submit" value="Sign Me Up!" action="#" class="signup-form-btn">
-                        <input type="reset" value="Clear Form" class="signup-form-btn">
-                    </form>
+                            <div>
+                                <fieldset id="checkbox-input">
+                                    <legend>What beer(s) interest you?</legend>
+                                    <label for="interest-lager">Lager</label>
+                                    <input type="checkbox" name="style_interest" value="lager" id="interest-lager">
+                                    <label for="interest-germ-ale">German Ale</label>
+                                    <input type="checkbox" name="style_interest" value="german_ale" id="interest-germ-ale">
+                                    <label for="interest-brit-ale">Brittish Ale</label>
+                                    <input type="checkbox" name="style_interest" value="brittish_ale" id="interest-brit-ale">
+                                    <label for="interest-pa-ipa">Pale Ale/I.P.A.</label>
+                                    <input type="checkbox" name="style_interest" value="pale_ipa" id="interest-pa-ipa">
+                                    <label for="interest-po-sto">Porter/Stout</label>
+                                    <input type="checkbox" name="style_interest" value="porter_stout" id="interest-po-sto">
+                                    <label for="interest-sour">Sour Ale</label>
+                                    <input type="checkbox" name="style_interest" value="sour_ale" id="interest-sour">
+                                    <label for="interest-belgian">Belgian Ale</label>
+                                    <input type="checkbox" name="style_interest" value="belgia_ale" id="interest-belgian">
+                                </fieldset>
+                            </div>
+                            <input type="submit" value="Sign Me Up!" action="#" class="signup-form-btn">
+                            <input type="reset" value="Clear Form" class="signup-form-btn">
+                        </form>
+                    </div>
                 </div>
             </div>
         </aside>
         <section>
-            <div id="h1-history-wrapper">
-                <h1>A <em>(very)</em> brief overview of the history of beer:</h1>
+            <div class="z2-wrapper">
+                <div id="h1-history-wrapper">
+                    <h1>A <em>(very)</em> brief overview of the history of beer:</h1>
+                </div>
+                <div id="timeline-heading-wrapper">
+                    <h2>6000<br>B.C.</h2><hr>
+                </div>
             </div>
             <div id="timeline-wrapper">
-                <h2>6000<br>B.C.</h2><hr>
                 <div id="timeline-arrow"></div>
             </div>
-            
-            <div id="timeline-arrowhead"></div>
+            <div id="arrowhead-hidebox"></div>
+            <div id="timeline-arrowhead">
+                <img src="assets/images/arrowhead-clip-art-arrow.png" alt="arrowhead for the timeline">
+            </div>
         </section>
         <footer>
             <ul>

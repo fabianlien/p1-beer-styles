@@ -16,9 +16,12 @@ The information displayed strives to have intuitive navigation and be easily dig
 ## Credits
 
 ### Media
-No attribution reuired:
+No attribution reuired, Free to use:
 Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download
 iframe video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4
+
+No attribution reuired, Non-commercial use:
+https://www.hiclipart.com/free-transparent-background-png-clipart-bjaox
 
 Attribution required
 https://www.freepik.com/vectors/border">Border vector created by upklyak - www.freepik.com
