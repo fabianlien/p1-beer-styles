@@ -144,6 +144,8 @@ nav .active {
     height: 100%;
     width: 100%;
     background-color: rgba(29, 19, 14, 0.6);
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -151,8 +153,7 @@ nav .active {
     border: 30px inset rgb(238, 195, 1);
     background-color: rgb(240, 220, 150);
     width: 60%;
-    margin: 15%;
-    min-height: 420px;
+    margin-top: 10%;
     height: fit-content;
     padding: 30px;
     overflow: auto;
@@ -375,7 +376,7 @@ hr {
 #timeline-wrapper {
     clear: both;
     width: 80%;
-    height: 2740px;
+    height: fit-content;
     margin: -40px 10% 0;
     background-color: rgb(241, 209, 91);
     display: flex;
@@ -451,6 +452,15 @@ hr {
     margin-bottom: -16px;
     font-style: italic;
     text-transform: unset;
+}
+
+/* Dictionary */
+
+#search-box {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 /*footer*/
