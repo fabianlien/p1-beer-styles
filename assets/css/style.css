@@ -107,7 +107,7 @@ nav .active {
     margin: 10px 0 0 -20px;
     line-height: 30px;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     display: none; 
 }
 
@@ -345,7 +345,7 @@ hr {
     border-color: rgb(240, 220, 150);
 }
 
-/*history page*/
+/*history outline*/
 
 #h1-history-wrapper {
     width: 100%;
@@ -413,9 +413,44 @@ hr {
     transform: rotate(180deg);
 }
 
+
 .z2-wrapper {
     position: relative;
     z-index: 2;
+}
+
+/*History fact boxes*/
+
+#timeline-col-left {
+    position: absolute;
+    top: 900px;
+    margin-left: 12%;
+    width: 36%;
+    text-align: right;
+}
+
+#timeline-col-right {
+    position: absolute;
+    top: 950px;
+    right: 0;
+    margin-right: 12%;
+    width: 36%;
+}
+
+.historical-fact-box {
+    padding: 0 12px;
+    margin: 60px 12px;
+    background-color: rgb(240, 220, 150);
+    border-radius: 12px;
+    max-height: 200px;
+    min-width: 200px;
+    overflow: auto;
+}
+
+.historical-fact-box h2 {
+    margin-bottom: -16px;
+    font-style: italic;
+    text-transform: unset;
 }
 
 /*footer*/

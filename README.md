@@ -16,21 +16,23 @@ The information displayed strives to have intuitive navigation and be easily dig
 ## Credits
 
 ### Media
-No attribution reuired, Free to use:
-Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download
-iframe video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4
-
-No attribution reuired, Non-commercial use:
-https://www.hiclipart.com/free-transparent-background-png-clipart-bjaox
-
-Attribution required
-https://www.freepik.com/vectors/border">Border vector created by upklyak - www.freepik.com
+No attribution reuired, Free to use:  
+Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download  
+Embedded video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4  
+  
+No attribution reuired, Non-commercial use:  
+https://www.hiclipart.com/free-transparent-background-png-clipart-bjaox  
+  
+Attribution required:  
+https://www.freepik.com/vectors/border">Border vector created by upklyak - www.freepik.com  
 
 ### Text Content
-https://www.anchorbrewing.com/blog/a-history-of-lager/
-https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#4
+https://www.anchorbrewing.com/blog/a-history-of-lager/  
+https://www.brewersassociation.org/edu/brewers-association-beer-style-guidelines/#4  
+https://beerhistory.com/library/holdings/raley_timetable.shtml  
+https://beerandbrewing.com/dictionary/UqfrcsPoAI/  
 
 ### Tutorials and troubleshooting
-https://www.w3schools.com/
-https://stackoverflow.com/
-https://www.javatpoint.com/
+https://www.w3schools.com/  
+https://stackoverflow.com/  
+https://www.javatpoint.com/  
