@@ -294,24 +294,32 @@ hr {
 
 #style-column-wrapper {
     width: 100%;
-    height: 80vh;
+    height: 2000px;
     background-color: rgb(240, 220, 150);
     display: flex;
     justify-content: center;
 }
 
 #style-column-wrapper:hover {
-    height: 100vh;
+    height: 2000px;
     overflow: hidden;
 }
 
 .style-column {
-    height: 80vh;
+    height: 2000px;
     display: inline-block;
     width: 24%
 }
 
 .style-heading-box {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.style-footer-box {
     width: 100%;
     height: 70px;
     text-align: center;
