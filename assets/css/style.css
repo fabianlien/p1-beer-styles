@@ -300,6 +300,11 @@ hr {
     justify-content: center;
 }
 
+#style-column-wrapper:hover {
+    height: 100vh;
+    overflow: hidden;
+}
+
 .style-column {
     height: 80vh;
     display: inline-block;
