@@ -296,13 +296,14 @@ hr {
     width: 100%;
     height: 80vh;
     background-color: rgb(240, 220, 150);
-    float: left;
+    display: flex;
+    justify-content: center;
 }
 
 .style-column {
     height: 80vh;
     display: inline-block;
-    width: 33%
+    width: 24%
 }
 
 .style-heading-box {
@@ -323,6 +324,11 @@ hr {
 
 .dark-ales {
     background:rgb(34, 6, 6);
+    color: rgb(240, 220, 150);
+}
+
+.wilds-sours {
+    background:rgb(92, 23, 23);
     color: rgb(240, 220, 150);
 }
 

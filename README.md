@@ -8,6 +8,10 @@ The information displayed strives to have intuitive navigation and be easily dig
 
 
 ## Testing
+Fixed issues:  
+There was a visual problem with the columns in the style section. When a box in a column was highlighted the other columns would shift vertically. See screenshot:  
+![screenshot of above mentioned issue](assets/images/screenshots/screenshot-jumping-error.png)  
+My assumption was that this was caused by a float/clear issue cuasing positions to overlap somehow. I fixed this by replacing the float property with a display:flex property and centering the content.  
 
 
 ## Deployment
