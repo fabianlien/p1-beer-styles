@@ -337,6 +337,8 @@ hr {
     color: rgb(240, 220, 150);
 }
 
+
+
 .style-heading-box:hover {
     height: fit-content;
 }
@@ -353,8 +355,18 @@ hr {
     letter-spacing: 3px;
 }
 
-.dark-ales h3 {
-    border-color: rgb(240, 220, 150);
+.style-box-left {
+    float: left;
+    width: 66.66%;
+    text-align: right;
+    margin-right: 0;
+}
+
+.style-box-right {
+    float: right;
+    width: 33.33%;
+    min-width: 100px;
+    margin-left: 0;
 }
 
 /*history outline*/
