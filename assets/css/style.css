@@ -605,29 +605,38 @@ footer li {
     #nav-bar li:first-of-type + li + li + li a:hover {
         padding: 0;
     }
-    
-    #signup-window {
-        width: 70%;
-    }
 
     #text-input {
         float: none;
-        width: 90%;
+        width: 100%;
+        margin-left: -7.5%;
     }
 
     #checkbox-input {
         float: none;
-        width: 90%;
+        width: 100%;
+        margin-left: -7.5%;
     }
 
     #checkbox-input label {
         display: inline-block;
     }
 
+    .signup-window-content h2 {
+        font-size: 120%;
+        margin-top: -30px;
+        width: 120%;
+        margin-left: -10%;
+    }
+
     .signup-form-btn {
         position: relative;
         top: 16px;
+        max-width: 100px;
+        margin: 0 7.5% 0 -7.5%;
+        padding: 2px;
     }
+    
 
     #intro-box {
         position: absolute;
