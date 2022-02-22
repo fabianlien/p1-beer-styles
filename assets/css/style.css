@@ -584,6 +584,10 @@ footer li {
         display: none;
     }
 
+    #intro-box h2 {
+        font-size: 140%;
+    }
+
     video {
         width: 100%;
         position: absolute;
@@ -637,6 +641,12 @@ footer li {
 
     .style-column {
         width: 100%;
+    }
+
+    .style-heading-box h2 {
+        border-bottom: 3px solid black;
+        width: fit-content;
+        margin: 20px auto;
     }
 
     footer {
