@@ -605,6 +605,29 @@ footer li {
     #nav-bar li:first-of-type + li + li + li a:hover {
         padding: 0;
     }
+    
+    #signup-window {
+        width: 70%;
+    }
+
+    #text-input {
+        float: none;
+        width: 90%;
+    }
+
+    #checkbox-input {
+        float: none;
+        width: 90%;
+    }
+
+    #checkbox-input label {
+        display: inline-block;
+    }
+
+    .signup-form-btn {
+        position: relative;
+        top: 16px;
+    }
 
     #intro-box {
         position: absolute;
@@ -660,7 +683,9 @@ footer li {
 
     footer ul {
         position: unset;
-        margin-top: -10px;
+        width: 90%;
+        margin: -10px 0;
+        padding: 0 auto;
+        text-align: center; 
     }
-    
 }
