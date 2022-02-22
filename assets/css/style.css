@@ -515,3 +515,53 @@ footer li {
     display: inline-block;
     padding-left: 2%;
 }
+
+/*media queries*/
+@media screen and (max-width: 480px) {
+    #hero-image {
+        margin-left: -100px;
+        width: 150vw;
+        height: 300px;
+    }
+
+    #slogan {
+        max-width: 200px;
+    }
+
+    #signup {
+        float: left;
+        width: 100%;
+        margin-top: -50px;
+        text-align: right;
+    }
+
+    #nav-bar {
+        display: flex;
+        content: center;
+        margin-left: -5%;
+    }
+
+    #nav-bar li {
+        padding: 0 5%;
+    }
+
+    #beer-box {
+        display: none;
+    }
+
+    video {
+        width: 100%;
+        position: absolute;
+        top: 340px;
+        left: 0;
+    }
+
+    #nav-bar li:first-of-type + li + li + li {
+        font-size: 12px;
+        margin-top: 6px;
+    }
+
+    #nav-bar li:first-of-type + li + li + li a:hover {
+        padding: 0;
+    }
+}
