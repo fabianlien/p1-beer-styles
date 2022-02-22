@@ -543,10 +543,41 @@ footer li {
         text-align: right;
     }
 
-    #nav-bar li {
-        padding: 0 5%;
-        width: 10%;
-        min-width: 50px;
+    #nav-bar {
+        margin: 0 0 0 -40px;
+    }
+
+    nav a:hover {
+        padding: 5px;
+        margin: 0 -5px 0 -5px;
+        background-color: rgba(29, 19, 14, 0.8);
+        color: rgb(238, 195, 1);
+    }
+
+    nav .active {
+        padding: 5px;
+        margin: 0 -5px 0 -5px;
+    }
+    
+    nav li {
+        padding: 0 6%;
+        width: 9%;
+    }
+
+    nav a {
+        font-size: small;
+    }
+
+    .dropdown-button {
+        font-size: small;
+    }
+
+    .dropdown-button:hover {
+        padding: 5px;
+        margin-left: -5px;
+    }
+    .dropdown-content {
+        margin-top: 5px;
     }
 
     #beer-box {
@@ -557,13 +588,14 @@ footer li {
         width: 100%;
         position: absolute;
         z-index: 0;
-        top: 340px;
+        top: 328px;
         left: 0;
     }
 
     #nav-bar li:first-of-type + li + li + li {
         font-size: 12px;
-        margin-top: 6px;
+        margin: 0 1%;
+        
     }
 
     #nav-bar li:first-of-type + li + li + li a:hover {
@@ -575,7 +607,7 @@ footer li {
         background: transparent;
         z-index: 1;
         width: 97%;
-        margin-top: 24%;
+        margin-top: 25%;
         padding: 0 6px;
         color: rgb(240, 220, 150);
         height: 100px;
