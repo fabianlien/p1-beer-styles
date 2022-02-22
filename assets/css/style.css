@@ -517,11 +517,19 @@ footer li {
 }
 
 /*media queries*/
-@media screen and (max-width: 480px) {
+
+/*small phone*/
+@media screen and (min-width:320px) and (max-width: 480px) {
     #hero-image {
-        margin-left: -100px;
-        width: 150vw;
+        margin-left: -25%;
+        width: 125%;
         height: 300px;
+    }
+
+    #logotype {
+        font-size: 15vw;
+        width: 96%;
+        height: 13vw;
     }
 
     #slogan {
@@ -531,18 +539,14 @@ footer li {
     #signup {
         float: left;
         width: 100%;
-        margin-top: -50px;
+        margin-top: -96px;
         text-align: right;
-    }
-
-    #nav-bar {
-        display: flex;
-        content: center;
-        margin-left: -5%;
     }
 
     #nav-bar li {
         padding: 0 5%;
+        width: 10%;
+        min-width: 50px;
     }
 
     #beer-box {
@@ -552,6 +556,7 @@ footer li {
     video {
         width: 100%;
         position: absolute;
+        z-index: 0;
         top: 340px;
         left: 0;
     }
@@ -564,4 +569,35 @@ footer li {
     #nav-bar li:first-of-type + li + li + li a:hover {
         padding: 0;
     }
+
+    #intro-box {
+        position: absolute;
+        background: transparent;
+        z-index: 1;
+        width: 97%;
+        margin-top: 24%;
+        padding: 0 6px;
+        color: rgb(240, 220, 150);
+        height: 100px;
+        overflow: hidden;
+    }
+
+    #intro-box hr {
+        display: none;
+    }
+
+    #intro-box:hover {
+        height: fit-content;
+        background-color: rgb(92, 23, 23);
+    }
+
+    #intro-box p:hover {
+        font-size: larger;
+        padding: 5% 0 5% 0;
+    }
+
+    footer {
+        display: none;
+    }
+    
 }
