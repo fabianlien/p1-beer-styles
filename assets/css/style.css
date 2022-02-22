@@ -460,7 +460,7 @@ hr {
 #timeline-col-right {
     position: absolute;
     top: 950px;
-    right: 0;
+    right: 30%;
     margin-right: 12%;
     width: 36%;
 }
@@ -690,10 +690,70 @@ footer li {
         border-color: rgb(240, 220, 150);
     }
 
-    footer ul {
-        position: unset;
+    #h2-history-wrapper {
+        padding: 20px 10%;
+        height: fit-content;
+        width: 80%;
+        font-size: small;
+    }
+
+    #timeline-arrow {
+        display: none;
+    }
+
+    #timeline-arrowhead {
+        display: none;
+    }
+
+    #timeline-heading-wrapper {
+        position: relative;
+        text-align: center;
+        font-family: 'Saira Condensed', sans-serif;
+        line-height: 80px;
+        font-size: 300%;
+        padding-top: 20px;
+        letter-spacing: 4px;
         width: 90%;
-        margin: -10px 0;
+        margin: 0 5%;
+        background-color: rgb(241, 209, 91);
+        height: 3400px;
+    }
+
+    #timeline-heading-wrapper hr {
+        height: 6px;
+        margin-top: -50px;
+    }
+
+    #timeline-col-left {
+        z-index: 2;
+        top: 720px;
+        margin-left: 0;
+        width: 50%;
+    }
+
+    #timeline-col-right {
+        z-index: 2;
+        top: 780px;
+        right: 0;
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .historical-fact-box {
+        min-width: unset;
+        padding: 0 6px;
+        margin: 80px 6px;
+        max-height: unset;
+    }
+
+    .historical-fact-box p {
+        font-size: small;
+    }
+
+    footer ul {
+        position: relative;
+        width: 90%;
+        margin: -20px 0;
         padding: 0 auto;
         text-align: center; 
     }
