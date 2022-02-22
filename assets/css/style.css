@@ -647,10 +647,20 @@ footer li {
         border-bottom: 3px solid black;
         width: fit-content;
         margin: 20px auto;
+        padding-bottom: 10px;
     }
 
-    footer {
-        display: none;
+    .dark-ales h2 {
+        border-color: rgb(240, 220, 150);
+    }
+
+    .wilds-sours h2 {
+        border-color: rgb(240, 220, 150);
+    }
+
+    footer ul {
+        position: unset;
+        margin-top: -10px;
     }
     
 }
