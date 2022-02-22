@@ -596,6 +596,17 @@ footer li {
         padding: 5% 0 5% 0;
     }
 
+
+    #style-column-wrapper {
+        display: block;
+        position: relative;
+        margin-top: 56vw;
+    }
+
+    .style-column {
+        width: 100%;
+    }
+
     footer {
         display: none;
     }
