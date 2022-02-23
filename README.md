@@ -2,11 +2,11 @@
 # https://fabianlien.github.io/p1-beer-styles/
 The world of beer today is big and often intimidating. This style guide aims to help people gain some basic knowledge about both fundamental and trendy beer styles. There are already plenty of style guides targeting home-brewers and craft beer enthusiasts, the target users for this website are primarily those who want a quick and easy way to learn the basics of beer in order to gain some confidence when ordering that Imperial New England Style IPA or Irish Dry Stout. 
 
-The information displayed strives to have intuitive navigation and be easily digestible through layout and style. The idea is that users will be able to return to the site and quickly find information about specific beer styles that they might be curious about. The ultimate goal of the website is to further an inclusive and welcoming culture so that more people get a chance to discover the wonderful diversity of beer.
+The information displayed strives to have intuitive navigation and easily digestible content through layout and style. The idea is that users will be able to return to the site and quickly find information about specific beer styles that they might be curious about. The ultimate goal of the website is to further an inclusive and welcoming culture so that more people get a chance to discover the wonderful diversity of beer.
 
 
 ## Existing Features
-- **Hero Image and logo** - All 3 pages include a responsive Hero image containing:
+- **Hero Image and logo** - The Hero Image depicts a long row of beer glasses with differnt colors which looks very appealing. All 3 pages include a responsive Hero image containing:
   - A responsive text logotype for "BeerStyles" with a dark opaque background to increase visible accessability.
   - The responsive slogan "*Life's short, drink beer discerningly!*" also with a dark opaque background.
   - Note that the text elements are placed relative to the content of the image in order to ensure good visibile accessability.
@@ -35,33 +35,51 @@ The information displayed strives to have intuitive navigation and be easily dig
 - **Footer** - The responsive footer contains icons that link to external social media pages. THe footer is fixed to the bottom of the screen on larger displays. This is avoided on smaller screens to reduce clutter and improve the effective viewport height.
 ![Screenshot of the footer section](assets/images/screenshots/Screenshot-footer.png)
 
-## Features Not Yet Implemented
+## Features Not Yet Implemented/Unfinished features
 
 - **Dictionary** - The "*Beer Dictionary*" page will allow the user to type in text into an embedded search bar which will link to a definition heading on the same page (similar to the browsers "*Ctrl + F*") funtion). As this requires a lot of manual typing and gathering text sources the limited timeframe for this project does not currently allow for this feauture.
 ![Screenshot of the dictionary search bar](assets/images/screenshots/Screenshot-dictionary-page.png)
 
+- **Beer style boxes** - Many of the boxes have missing content and some headings are are still only placeholder. This content will be added/updated in the future.
+
+- **Advertisement iframes** - A possible future feature if the webiste purpose is adapted for commercial enterprise purposes would be to add advertisement iframes on the different pages. For example one such feature could be implemented here:
+![Screenshot showing a possible location for an advertisement](assets/images/screenshots/Screenshot-ad-placement.png) 
+
 ## Testing
-Fixed issues:  
+
+### Validators:
+**HTML:**  
+No errors were returned when passing through the official W3C validator.  
+**CSS:**  
+No errors were found when passing through the official (Jigsaw) validator.
+
+### Fixed bugs/issues:  
 There was a visual problem with the columns in the style section. When a box in a column was highlighted the other columns would shift vertically. See screenshot:  
 ![screenshot of above mentioned issue](assets/images/screenshots/screenshot-jumping-error.png)  
-My assumption was that this was caused by a float/clear issue cuasing positions to overlap somehow. I fixed this by replacing the float property with a display:flex property and centering the content.  
+My assumption was that this was caused by a float/clear issue cuasing positions to overlap somehow. I fixed this by replacing the float property with a display:flex property and centering the content.
+
+### Unfixed bugs:
 
 
 ## Deployment
+Initial deployment occured on 19/02/2202 via [GitHub Pages](https://pages.github.com/). The website repository...
+
 
 
 ## Credits
 
 ### Media
-No attribution reuired, Free to use:  
-Hero Image: https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download  
-Embedded video: https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4  
+No attribution reuired - Free to use:  
+[Fonts by Google](https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Saira+Condensed:wght@300&display=swap)  
+[HTML-Embedded Icons from Font Awesome](https://fontawesome.com/)  
+[Hero Image](https://pixabay.com/photos/beer-beer-glass-alcohol-glass-4926861/?download)  
+[Embedded video](https://assets.mixkit.co/videos/preview/mixkit-beer-foam-forming-in-a-glass-seen-from-close-up-8708-large.mp4)
   
-No attribution reuired, Non-commercial use:  
-https://www.hiclipart.com/free-transparent-background-png-clipart-bjaox  
+No attribution reuired - Non-commercial use only:  
+[Timeline Arrowhead](https://www.hiclipart.com/free-transparent-background-png-clipart-bjaox)
   
-Attribution required:  
-https://www.freepik.com/vectors/border">Border vector created by upklyak - www.freepik.com  
+No attribution reuired - Purchased commercial license:  
+[Beer glass set by LAFS](PNGhttps://creativemarket.com/Olga.Prikhodko/3896021-Beer-glasses-%28outline-colored-icons%29)
 
 ### Text Content
 https://www.anchorbrewing.com/blog/a-history-of-lager/  
