@@ -54,15 +54,26 @@ No errors were returned when passing through the official W3C validator.
 No errors were found when passing through the official (Jigsaw) validator.
 
 ### Fixed bugs/issues:  
-There was a visual problem with the columns in the style section. When a box in a column was highlighted the other columns would shift vertically. See screenshot:  
+- <ins>Bug:</ins> There was a visual problem with the columns in the style section. When a box in a column was highlighted the other columns would shift vertically. See screenshot:  
 ![screenshot of above mentioned issue](assets/images/screenshots/screenshot-jumping-error.png)  
-My assumption was that this was caused by a float/clear issue cuasing positions to overlap somehow. I fixed this by replacing the float property with a display:flex property and centering the content.
+<ins>Fix:</ins> My assumption was that this was caused by a float/clear issue cuasing positions to overlap somehow. I fixed this by replacing the float property with a display:flex property and centering the content.
+
+
+- <ins>Bug:</ins> The container of the anchor element for the signup form would shift to the right when hovered over, causing the container to extend past the viewport width and thus a x-scrollbar to appear at the bottom of the window (see screenshot below).  
+![screenshot depicting the above mentioned bug](assets/images/screenshots/signup-button-bug.png)
+<ins>Fix:</ins> I removed the css psuedo class which caused all nav anchor elements to get additional padding when hovered above, and instead added "invisible" padding to the same elements as default. Once the "shift right" effect was removed I decided the "*signup*" ID needed some other "*:hover*" psuedoclass styling. so I increased the font size and inverted text and background color (see screenshot below).
+![screenshot depicting the above mentioned bug-fix](assets/images/screenshots/signup-button-fix.png)
+
+
+- <ins>Bug:</ins> 
+
+
 
 ### Unfixed bugs:
 
 
 ## Deployment
-Initial deployment occured on 19/02/2202 via [GitHub Pages](https://pages.github.com/). The website repository...
+Initial deployment occured on 19/02/2202 via [GitHub Pages](https://pages.github.com/). The website was deployed via the "*pages*" tab in the repository settings. From the "*pages*" tab the "*Master Branch*" was selected, and once refresehed the browser indicated that deployment was successful. An active link to the deployed website can be found at the top of this document. Otherwise, click [here](https://fabianlien.github.io/p1-beer-styles/).
 
 
 

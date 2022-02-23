@@ -58,12 +58,11 @@ nav a {
     text-decoration: none;
     font-weight: 600;
     color: inherit;
+    padding: 10.5px 1.5px;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    padding: 10.5px;
-    margin: 0 -10.5px 0 -10.5px;
     background-color: rgba(29, 19, 14, 0.8);
     color: rgb(238, 195, 1);
 }
@@ -133,6 +132,12 @@ nav .active {
     font-weight: 800;
     padding: 10.5px 20px;
     margin-top: -25px;
+}
+
+#signup:hover {
+    color: rgb(92, 23, 23);
+    background-color: rgb(238, 195, 1, 0.7);
+    font-size: large;
 }
 
 .signup-window {
@@ -650,8 +655,11 @@ footer li {
         margin: 0 7.5% 0 -7.5%;
         padding: 2px;
     }
-    
 
+    #signup:hover {
+        font-size: medium;
+    }
+    
     #intro-box {
         position: absolute;
         background: transparent;
@@ -995,7 +1003,7 @@ footer li {
     #signup {
         float: left;
         width: 100%;
-        margin-top: -96px;
+        margin-top: -102px;
         text-align: right;
     }
     
