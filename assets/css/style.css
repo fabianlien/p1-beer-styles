@@ -371,6 +371,7 @@ hr {
     float: right;
     width: 33.3%;
     min-width: 100px;
+    max-width: 160px;
     margin-left: 0;
 }
 
