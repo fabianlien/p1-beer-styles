@@ -515,16 +515,19 @@ footer ul {
 
 footer a {
     color: inherit;
-    color:rgb(34, 6, 6);
     text-decoration: none;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: x-large;
+    padding: 8px;
+}
+
+footer a:hover {
+    color: rgb(92, 23, 23);
 }
 
 footer li {
     list-style-type: none;
     display: inline-block;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 
 /*media queries*/
@@ -1153,6 +1156,6 @@ footer li {
         width: 100%;
         margin: -20px 0;
         padding: 0;
-        text-align: center; 
+        text-align: center;
     }
 }
