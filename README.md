@@ -26,6 +26,20 @@ The information displayed strives to have intuitive navigation and be easily dig
 - **Signup form** - This feature contains a responsive form that appears as a pop-up window floating infront of the rest of the page content in a fixed position with an opaque background. The form allows the user to sign up to recieve news letters via email and contains several required text fields. It has a clickable "*X*"-button to close the pop-up. It also contains a checkbox field where the user can indicate what beer-styles are to be prioritized by the back-end. 
 ![screenshot of the sign-up form](assets/images/screenshots/Screenshot-signup-form.png)
 
+- **Styles section** - This is the main feature that the user will use and has content relevant to the primary purpose of the website. The section contains 4 columns which have been color coded for ease of use. The columns contain pertinent, concise information about individual beer styles. In order to recuce visual stress and clutter, each "*style box*" only displays the name of the beer style until it is hovered above (tapped on touch-screens), at which point an accordian-style effect reveals relevant text content and an image depecting the preffered glass type. the amount of adjacent columns displayed is responsive to the screen width.
+![screenshot of the beer style column displayed on a desktop](assets/images/screenshots/Screenshot-style-columns.png)
+
+- **History page** - This page can be accessed from the navigation bar and takes the user to a page containing a vertically oriented scrollable timeline. It contains interesting historical fact boxes about beer that aim to further the curiosity of the user without overwhelming them with detail. The content intends to serve as "conversation grease" in everyday life and bar culture. The timeline has an added visual element, in form of an arrow (for larger screens), which aims to make the page feel more interactive. The arrow disappears when scrolling through the top of the page (a visual trick which is once again achieved without JS).
+![Screenshot of the history page displayed on a desktop](assets/images/screenshots/Screenshot-history-page.png)
+
+- **Footer** - The responsive footer contains icons that link to external social media pages. THe footer is fixed to the bottom of the screen on larger displays. This is avoided on smaller screens to reduce clutter and improve the effective viewport height.
+![Screenshot of the footer section](assets/images/screenshots/Screenshot-footer.png)
+
+## Features Not Yet Implemented
+
+- **Dictionary** - The "*Beer Dictionary*" page will allow the user to type in text into an embedded search bar which will link to a definition heading on the same page (similar to the browsers "*Ctrl + F*") funtion). As this requires a lot of manual typing and gathering text sources the limited timeframe for this project does not currently allow for this feauture.
+![Screenshot of the dictionary search bar](assets/images/screenshots/Screenshot-dictionary-page.png)
+
 ## Testing
 Fixed issues:  
 There was a visual problem with the columns in the style section. When a box in a column was highlighted the other columns would shift vertically. See screenshot:  
