@@ -642,8 +642,9 @@ footer li {
         position: absolute;
         background: transparent;
         z-index: 1;
-        width: 97%;
+        width: fit-content;
         margin-top: 25%;
+        font-size: 110%;
         padding: 0 6px;
         color: rgb(240, 220, 150);
         height: 100px;
@@ -758,3 +759,214 @@ footer li {
         text-align: center; 
     }
 }
+
+/*medium phone*/
+@media screen and (min-width:481px) and (max-width: 768px) {
+    #hero-image {
+        margin-left: -10%;
+        width: 110%;
+        height: 320px;
+    }
+
+    #logotype {
+        font-size: 13vw;
+        width: 83%;
+        height: 11vw;
+    }
+
+    #slogan {
+        max-width: 260px;
+    }
+
+    #signup {
+        float: left;
+        width: 100%;
+        margin-top: -96px;
+        text-align: right;
+    }
+    
+    nav li {
+        padding: 0 5%;
+        width: 10%;
+    }
+
+    #beer-box {
+        display: none;
+    }
+
+    #intro-box h2 {
+        font-size: 140%;
+    }
+
+    video {
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+        top: 364px;
+        left: 0;
+    }
+
+    #nav-bar li:first-of-type + li + li + li {
+        font-size: 14px;
+        line-height: 12px;
+        margin: 0 2%;
+        
+    }
+
+    #nav-bar li:first-of-type + li + li + li a:hover {
+        padding: 0;
+    }
+
+    #text-input {
+        float: none;
+        width: 90%;
+    }
+
+    #checkbox-input {
+        float: none;
+        width: 90%;
+    }
+
+    #checkbox-input label {
+        display: inline-block;
+    }
+
+    .signup-window-content h2 {
+        font-size: 120%;
+        margin-top: -30px;
+        width: 100%;
+    }
+
+    .signup-form-btn {
+        position: relative;
+        top: 16px;
+        padding: 5px;
+    }
+    
+
+    #intro-box {
+        position: absolute;
+        background: transparent;
+        z-index: 1;
+        width: fit-content;
+        margin-top: 25%;
+        padding: 20px 6px;
+        color: rgb(240, 220, 150);
+        height: 100px;
+        font-size: 130%;
+        overflow: hidden;
+    }
+
+    #intro-box hr {
+        display: none;
+    }
+
+    #intro-box:hover {
+        height: fit-content;
+        background-color: rgb(92, 23, 23);
+    }
+
+    #intro-box p:hover {
+        font-size: larger;
+        padding: 5% 0 5% 0;
+    }
+
+
+    #style-column-wrapper {
+        display: block;
+        position: relative;
+        margin-top: 56vw;
+    }
+
+    .style-column {
+        width: 100%;
+    }
+
+    .style-heading-box h2 {
+        border-bottom: 3px solid black;
+        width: fit-content;
+        margin: 20px auto;
+        padding-bottom: 10px;
+    }
+
+    .style-heading-box {
+        font-size: 115%;
+    }
+
+    .dark-ales h2 {
+        border-color: rgb(240, 220, 150);
+    }
+
+    .wilds-sours h2 {
+        border-color: rgb(240, 220, 150);
+    }
+
+    #h2-history-wrapper {
+        padding: 20px 10%;
+        height: fit-content;
+        width: 80%;
+        font-size: small;
+    }
+
+    #timeline-arrow {
+        display: none;
+    }
+
+    #timeline-arrowhead {
+        display: none;
+    }
+
+    #timeline-heading-wrapper {
+        position: relative;
+        text-align: center;
+        font-family: 'Saira Condensed', sans-serif;
+        line-height: 80px;
+        font-size: 300%;
+        padding-top: 20px;
+        letter-spacing: 4px;
+        width: 90%;
+        margin: 0 5%;
+        background-color: rgb(241, 209, 91);
+        height: 3400px;
+    }
+
+    #timeline-heading-wrapper hr {
+        height: 6px;
+        margin-top: -50px;
+    }
+
+    #timeline-col-left {
+        z-index: 2;
+        top: 720px;
+        margin-left: 0;
+        width: 50%;
+    }
+
+    #timeline-col-right {
+        z-index: 2;
+        top: 780px;
+        right: 0;
+        margin-right: 0;
+        width: 50%;
+    }
+
+    .historical-fact-box {
+        min-width: unset;
+        padding: 0 6px;
+        margin: 80px 6px;
+        max-height: unset;
+    }
+
+    .historical-fact-box p {
+        font-size: medium;
+    }
+
+    footer ul {
+        position: relative;
+        width: 90%;
+        margin: -20px 0;
+        padding: 0 auto;
+        text-align: center; 
+    }
+}
+
