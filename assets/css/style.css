@@ -307,7 +307,7 @@ hr {
 .style-column {
     height: fit-content;
     display: inline-block;
-    width: 24%
+    width: 25%
 }
 
 .style-heading-box {
@@ -1106,35 +1106,6 @@ footer li {
         border-color: rgb(240, 220, 150);
     }
 
-    #h2-history-wrapper {
-        padding: 20px 10%;
-        height: fit-content;
-        width: 80%;
-        font-size: small;
-    }
-
-    #timeline-arrow {
-        display: none;
-    }
-
-    #timeline-arrowhead {
-        display: none;
-    }
-
-    #timeline-heading-wrapper {
-        position: relative;
-        text-align: center;
-        font-family: 'Saira Condensed', sans-serif;
-        line-height: 80px;
-        font-size: 300%;
-        padding-top: 20px;
-        letter-spacing: 4px;
-        width: 90%;
-        margin: 0 5%;
-        background-color: rgb(241, 209, 91);
-        height: 3400px;
-    }
-
     #timeline-heading-wrapper hr {
         height: 6px;
         margin-top: -50px;
@@ -1142,17 +1113,17 @@ footer li {
 
     #timeline-col-left {
         z-index: 2;
-        top: 720px;
+        top: 800px;
         margin-left: 0;
-        width: 50%;
+        width: 45%;
     }
 
     #timeline-col-right {
         z-index: 2;
-        top: 780px;
+        top: 900px;
         right: 0;
         margin-right: 0;
-        width: 50%;
+        width: 45%;
     }
 
     .historical-fact-box {
@@ -1174,5 +1145,3 @@ footer li {
         text-align: center; 
     }
 }
-
-
