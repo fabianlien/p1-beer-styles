@@ -76,43 +76,41 @@ No errors were found when passing through the official (Jigsaw) validator.
 ![screenshot depicting the above menrtioned bug](assets/images/screenshots/z-index-bug.png)
 
 ## Deployment
-Initial deployment occured on 19/02/2202 via [GitHub Pages](https://pages.github.com/). The website was deployed via the "*pages*" tab in the repository settings. From the "*pages*" tab the "*Master Branch*" was selected, and once refresehed the browser indicated that deployment was successful. An active link to the deployed website can be found at the top of this document. Otherwise, click [here](https://fabianlien.github.io/p1-beer-styles/).
+Initial deployment occured on 19/02/2202 via [GitHub Pages](https://pages.github.com/).  
+An active link to the deployed website can be found at the top of this document. Otherwise, click [here](https://fabianlien.github.io/p1-beer-styles/).
 
-
-
-Deployment
-GitHub Pages
+### Deployment via GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
-
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-Scroll down the Settings page until you locate the "GitHub Pages" Section.
-Under "Source", click the dropdown called "None" and select "Master Branch".
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Select "Pages" from the menu on the left hand side..
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
 The page will automatically refresh.
-Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
-Forking the GitHub Repository
+5. The published link will appear shortly in a green box at the top of the page.
+
+### Forking the GitHub Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-Log in to GitHub and locate the GitHub Repository
-At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-You should now have a copy of the original repository in your GitHub account.
-Making a Local Clone
-Log in to GitHub and locate the GitHub Repository
-Under the repository name, click "Clone or download".
-To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-Open Git Bash
-Change the current working directory to the location where you want the cloned directory to be made.
-Type git clone, and then paste the URL you copied in Step 3.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter. Your local clone will be created.
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type "*git clone*", and then paste the URL you copied in Step 3.
+`$ git clone https://fabianlien.github.io/p1-beer-styles/`
+
+7. Press Enter. Your local clone will be created.  
+`$ git clone https://fabianlien.github.io/p1-beer-styles/`  
+`> Cloning into CI-Clone>...`  
+`> remote: Counting objects: 10, done.`  
+`> remote: Compressing objects: 100% (8/8), done.`  
+`> remove: Total 10 (delta 1), reused 10 (delta 1)`  
+`> Unpacking objects: 100% (10/10), done.`  
 
 
 
@@ -130,6 +128,7 @@ No attribution reuired - Non-commercial use only:
   
 No attribution reuired - Purchased commercial license:  
 [Beer glass set by LAFS](PNGhttps://creativemarket.com/Olga.Prikhodko/3896021-Beer-glasses-%28outline-colored-icons%29)
+[Barley and hops backround](https://depositphotos.com/125214710/stock-photo-malt-and-hops.html)
 
 ### Text Content
 https://www.anchorbrewing.com/blog/a-history-of-lager/  
@@ -142,4 +141,4 @@ https://www.w3schools.com/
 https://stackoverflow.com/  
 https://www.javatpoint.com/  
 
-This site was built using [GitHub Pages](https://pages.github.com/).
+### This site was built using [GitHub Pages](https://pages.github.com/).
