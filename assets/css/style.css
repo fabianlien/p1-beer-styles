@@ -17,6 +17,7 @@ h2 {
     height: 400px;
     width: 100%;
     background-size: cover;
+    background-color: black;
 }
 
 #logotype {
@@ -299,8 +300,10 @@ hr {
 
 #style-column-wrapper {
     width: 100%;
-    background-image: url(../images/hops-background.jpg);
-    background-size: cover;
+    padding-top: 200px;
+    border-top: 40px solid rgb(238, 195, 1);
+    background: rgb(63, 49, 40) url(../images/malt-and-hops-background.jpg) no-repeat fixed;
+    background-size: 100vw;
     display: flex;
     justify-content: center;
 }
@@ -341,6 +344,10 @@ hr {
 
 .style-column:hover .adaptive-threshold {
     display: none;
+}
+
+.style-column > div:first-child {
+    border-top: 10px solid rgb(236, 204, 144);
 }
 
 .lagers {
@@ -530,7 +537,7 @@ footer ul {
     bottom: -20px;
     height: 60px;
     width: 100%;
-    border-top: 12px solid rgba(29, 19, 14, 0.8);
+    border-top: 12px solid rgb(238, 195, 1);
     background-color: rgb(240, 220, 150);
 }
 
