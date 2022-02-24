@@ -69,6 +69,21 @@ No errors were found when passing through the official (Jigsaw) validator.
 ![screenshot depicting the above mentioned bug](assets/images/screenshots/signup-form-scroll-bug.png)
 <ins>Fix:</ins> This problem will not be resolved visually by adjusting the responsiveness to the window height as this would require overhauling the form content layout and would end up looking unappealing/cramped together. Therefore the solution was to add a overflow attribute with a scroll value to the parent container of the form.
 
+- <ins>Bug:</ins> At the bottom of the "*Beer Styles*" section there would be a a large empty space generated below adjacent columns when hovering above one of the columns. This occured because the wrapper for the "*style columns*" was set to fit content. See screenshot:
+![screenshot depicting the above mentioned bug](assets/images/screenshots/style-column-footer-bug.png)
+- <ins>Fix:</ins> A simple solution would have been to give it a fixed height, but that would again be visually unappealing and look quite underwhelming. Instead the solution became a visual overhaul:
+  - I created a threshold below each column.
+  - I styled the threshold to be transparent and roughly the same height as the expanded "*style box*" above it.
+  - I targeted it with a psuedo class causing it to not display when hovered above the "*style box*".
+  - I added a nice background and made it responsive.  
+
+  The final result ended up looking like this:
+  ![screenshot depicting the above mentioned fix](assets/images/screenshots/style-column-footer-fix.png)
+
+- <ins>Bug:</ins> A small visual issue was caused by the padding for "*beer dictionary*" link when active in the nav bar for smaller media queries. See screenshot:
+![screenshot depicting the above mentioned bug](assets/images/screenshots/beer-dictionary-link-bug.png)
+<ins>Fix:</ins> The solution was to remove the excess padding, setting the left margin to a 0 value, and then using a "*bottom-border*" with the same color property as the padding.
+![screenshot depicting the above mentioned fix](assets/images/screenshots/beer-dictionary-link-fix.png)
 
 ### Unfixed bugs:
 - <ins>Bug:</ins> On the history.html page, when the "*styles*" button element is hovered above, a psuedo class triggers an element to display. This element contains the links to the "*style columns*" and is supposed to display ontop of other page elements as it has a z-index value of 3. However, the "*z2-wrapper*" class element which occupies the same space, remains on top. Even though it has a z-index value of 2.  
@@ -140,5 +155,6 @@ https://beerandbrewing.com/dictionary/UqfrcsPoAI/
 https://www.w3schools.com/  
 https://stackoverflow.com/  
 https://www.javatpoint.com/  
+https://www.markdownguide.org/basic-syntax/  
 
 ### This site was built using [GitHub Pages](https://pages.github.com/).
