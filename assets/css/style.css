@@ -715,6 +715,18 @@ footer li {
         display: block;
         position: relative;
         margin-top: 56vw;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: 480px;
+    }
+
+    .style-column {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .adaptive-threshold {
+        display: none;
     }
 
     .style-column {
@@ -921,10 +933,18 @@ footer li {
         display: block;
         position: relative;
         margin-top: 56vw;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: 856px;
     }
 
     .style-column {
         width: 100%;
+        padding: 30px 0;
+    }
+
+    .adaptive-threshold {
+        display: none;
     }
 
     .style-heading-box h2 {
@@ -1090,7 +1110,6 @@ footer li {
         top: 16px;
         padding: 5px;
     }
-    
 
     #intro-box {
         position: absolute;
@@ -1119,13 +1138,15 @@ footer li {
         padding: 5% 0 5% 0;
     }
 
-
     #style-column-wrapper {
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         position: relative;
         margin-top: 56vw;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-size: 1024px;
     }
 
     .style-column {
