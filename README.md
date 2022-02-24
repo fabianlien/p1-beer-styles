@@ -65,12 +65,15 @@ No errors were found when passing through the official (Jigsaw) validator.
 ![screenshot depicting the above mentioned bug-fix](assets/images/screenshots/signup-button-fix.png)
 
 
-- <ins>Bug:</ins> 
-
+- <ins>Bug:</ins> The signup form popup, as it has a position value of "*fixed*" does change it's relative position when scrolling. This looks very good in full-screen mode, but in a windowed browser with a low height the bottom of the form would be croped and the information in it unaccessible until the window height is adjusted. See screenshot:
+![screenshot depicting the above mentioned bug](assets/images/screenshots/signup-form-scroll-bug.png)
+<ins>Fix:</ins> This problem will not be resolved visually by adjusting the responsiveness to the window height as this would require overhauling the form content layout and would end up looking unappealing/cramped together. Therefore the solution was to add a overflow attribute with a scroll value to the parent container of the form.
 
 
 ### Unfixed bugs:
-
+- <ins>Bug:</ins> On the history.html page, when the "*styles*" button element is hovered above, a psuedo class triggers an element to display. This element contains the links to the "*style columns*" and is supposed to display ontop of other page elements as it has a z-index value of 3. However, the "*z2-wrapper*" class element which occupies the same space, remains on top. Even though it has a z-index value of 2.  
+<ins>Troubleshooting:</ins> I have attempted to make adjustments to the position value of both elements with no success. Altering the specificity had no distinguishable effect. I have also tried adding wrappers with an absolute position value and different "z-index" values around each element. Finally i tried adding another *class:hover* to the button element that would change the "z-index" value of the "*z2-wrapper*" class, but again to no effect.
+![screenshot depicting the above menrtioned bug](assets/images/screenshots/z-index-bug.png)
 
 ## Deployment
 Initial deployment occured on 19/02/2202 via [GitHub Pages](https://pages.github.com/). The website was deployed via the "*pages*" tab in the repository settings. From the "*pages*" tab the "*Master Branch*" was selected, and once refresehed the browser indicated that deployment was successful. An active link to the deployed website can be found at the top of this document. Otherwise, click [here](https://fabianlien.github.io/p1-beer-styles/).

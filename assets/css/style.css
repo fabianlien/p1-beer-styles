@@ -102,11 +102,11 @@ nav .active {
 
 .dropdown-content {
     background-color: rgb(238, 195, 1);
-    padding: 20px;
+    padding: 10px;
     margin: 10px 0 0 -20px;
     line-height: 30px;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     display: none; 
 }
 
@@ -131,7 +131,7 @@ nav .active {
     color: rgb(238, 195, 1);
     font-weight: 800;
     padding: 10.5px 20px;
-    margin-top: -25px;
+    margin-top: -26px;
 }
 
 #signup:hover {
@@ -151,14 +151,14 @@ nav .active {
     background-color: rgba(29, 19, 14, 0.6);
     display: flex;
     justify-content: center;
-
+    overflow: scroll;
 }
 
 .signup-window-content {
     border: 30px inset rgb(238, 195, 1);
     background-color: rgb(240, 220, 150);
     width: 60%;
-    margin-top: 10%;
+    margin: auto;
     height: fit-content;
     padding: 30px;
     overflow: auto;
@@ -441,7 +441,6 @@ hr {
     max-width: 120px;
     transform: rotate(180deg);
 }
-
 
 .z2-wrapper {
     position: relative;
