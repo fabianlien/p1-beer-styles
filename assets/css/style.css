@@ -299,7 +299,8 @@ hr {
 
 #style-column-wrapper {
     width: 100%;
-    background-color: rgb(240, 220, 150);
+    background-image: url(../images/hops-background.jpg);
+    background-size: cover;
     display: flex;
     justify-content: center;
 }
@@ -308,6 +309,7 @@ hr {
     height: fit-content;
     display: inline-block;
     width: 25%;
+    overflow: hidden;
 }
 
 .style-heading-box {
@@ -320,10 +322,25 @@ hr {
 
 .style-footer-box {
     width: 100%;
-    height: 70px;
+    height: 20px;
     text-align: center;
     padding-top: 20px;
+    border-bottom: 10px solid rgb(236, 204, 144);
+    
+}
+
+.adaptive-threshold {
+    position: relative;
+    width: 100%;
+    background: transparent;
+    margin-top: 0;
+    height: 220px;
     overflow: hidden;
+    display: block;
+}
+
+.style-column:hover .adaptive-threshold {
+    display: none;
 }
 
 .lagers {
@@ -353,7 +370,7 @@ hr {
 }
 
 .style-heading-box h3 {
-    border-top: 8px solid rgb(240, 220, 150);
+    border-top: 8px solid rgb(236, 204, 144);
     padding-top: 16px;
     border-radius: 16px;
     line-height: 32px;
