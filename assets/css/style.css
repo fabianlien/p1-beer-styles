@@ -149,7 +149,7 @@ nav .active {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(65, 46, 16);
+    background-color: rgba(65, 46, 16, 0.4);
     display: flex;
     justify-content: center;
     overflow: scroll;
@@ -302,7 +302,7 @@ hr {
     width: 100%;
     padding-top: 200px;
     border-top: 40px solid rgb(238, 195, 1);
-    background: rgb(63, 49, 40) url(../images/malt-and-hops-background.jpg) no-repeat fixed;
+    background: rgb(63, 49, 40) url(../images/malt-and-hops-background-l.jpg) no-repeat fixed;
     background-size: 100vw;
     display: flex;
     justify-content: center;
@@ -394,9 +394,7 @@ hr {
 .style-box-right {
     float: right;
     width: 33.3%;
-    min-width: 100px;
     max-width: 160px;
-    margin-left: 0;
 }
 
 /*history outline*/

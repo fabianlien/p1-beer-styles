@@ -32,7 +32,7 @@ The information displayed strives to have intuitive navigation and easily digest
 - **History page** - This page can be accessed from the navigation bar and takes the user to a page containing a vertically oriented scrollable timeline. It contains interesting historical fact boxes about beer that aim to further the curiosity of the user without overwhelming them with detail. The content intends to serve as "conversation grease" in everyday life and bar culture. The timeline has an added visual element, in form of an arrow (for larger screens), which aims to make the page feel more interactive. The arrow disappears when scrolling through the top of the page (a visual trick which is once again achieved without JS).
 ![Screenshot of the history page displayed on a desktop](assets/images/screenshots/Screenshot-history-page.png)
 
-- **Footer** - The responsive footer contains icons that link to external social media pages. THe footer is fixed to the bottom of the screen on larger displays. This is avoided on smaller screens to reduce clutter and improve the effective viewport height.
+- **Footer** - The responsive footer contains icons that will allow the user to access links to external social media pages tied to the website. The footer is fixed to the bottom of the screen on larger displays. This is avoided on smaller screens to reduce clutter and improve the effective viewport height.
 ![Screenshot of the footer section](assets/images/screenshots/Screenshot-footer.png)
 
 ## Features Not Yet Implemented/Unfinished features
@@ -42,7 +42,7 @@ The information displayed strives to have intuitive navigation and easily digest
 
 - **Beer style boxes** - Many of the boxes have missing content and some headings are are still only placeholder. This content will be added/updated in the future.
 
-- **Advertisement iframes** - A possible future feature if the webiste purpose is adapted for commercial enterprise purposes would be to add advertisement iframes on the different pages. For example one such feature could be implemented here:
+- **Advertisement iframes** - A possible future feature (if the webiste purpose is adapted for commercial enterprise) would be to add advertisement iframes on the different pages. For example one such feature could be implemented here:
 ![Screenshot showing a possible location for an advertisement](assets/images/screenshots/Screenshot-ad-placement.png) 
 
 ## Testing
